@@ -17,7 +17,7 @@ public static class DependencyInjection
     public static IServiceCollection AddPersistance(this IServiceCollection services, ConfigurationManager configuration)
     {
         string? connectionString = configuration.GetConnectionString("DefaultConnection");
-        services.AddDbContext<IApplicationDbContext, ApplicationDbContext>(options => options.UseSqlServer(connectionString));
+        services.AddDbContext<IApplicationDbContext, ApplicationDbContext>(options => options.UseNpgsql(connectionString));
         return services;
     }
 }

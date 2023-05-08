@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkTestTask.Api", "VkTestTask.Api\VkTestTask.Api.csproj", "{4B228DFB-EE78-47EC-B65A-50BA51397EF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VkTestTask.Api", "VkTestTask.Api\VkTestTask.Api.csproj", "{4B228DFB-EE78-47EC-B65A-50BA51397EF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkTestTask.Domain", "VkTestTask.Domain\VkTestTask.Domain.csproj", "{3E54CDDF-D57A-496C-B71A-40DE9B73DE07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VkTestTask.Domain", "VkTestTask.Domain\VkTestTask.Domain.csproj", "{3E54CDDF-D57A-496C-B71A-40DE9B73DE07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkTestTask.Application", "VkTestTask.Application\VkTestTask.Application.csproj", "{59218C2A-6146-4A24-A6C6-55CB403768C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VkTestTask.Application", "VkTestTask.Application\VkTestTask.Application.csproj", "{59218C2A-6146-4A24-A6C6-55CB403768C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkTestTask.Infrastructure", "VkTestTask.Infrastructure\VkTestTask.Infrastructure.csproj", "{C85D8016-1162-461A-9B6A-83FC614DB9FF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkTestTask.Tests", "VkTestTask.Tests\VkTestTask.Tests.csproj", "{9F4D85D5-F485-4DE4-81DE-9D3C86DF88BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VkTestTask.Infrastructure", "VkTestTask.Infrastructure\VkTestTask.Infrastructure.csproj", "{C85D8016-1162-461A-9B6A-83FC614DB9FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +33,6 @@ Global
 		{C85D8016-1162-461A-9B6A-83FC614DB9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C85D8016-1162-461A-9B6A-83FC614DB9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C85D8016-1162-461A-9B6A-83FC614DB9FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F4D85D5-F485-4DE4-81DE-9D3C86DF88BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F4D85D5-F485-4DE4-81DE-9D3C86DF88BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F4D85D5-F485-4DE4-81DE-9D3C86DF88BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F4D85D5-F485-4DE4-81DE-9D3C86DF88BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
